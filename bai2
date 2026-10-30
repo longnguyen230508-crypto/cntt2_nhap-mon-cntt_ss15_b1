@@ -1,0 +1,11 @@
+Phần 1: Phân tích vì sao hành động của An vi phạm "Quy tắc Cờ Đỏ Bảo mật"
+ Kết hợp "Anyone with the link" và quyền "Editor": Chế độ này cho phép bất kỳ ai có đường dẫn trên mạng internet đều có thể chỉnh sửa, thêm hoặc xóa dữ liệu trực tiếp mà không cần đăng nhập hay xác thực danh tính.
+Mất kiểm soát danh tính và không thể truy cứu: Khi dữ liệu bị kẻ xấu xâm nhập và xóa sạch, hệ thống không thể xác định rõ danh tính thực tế của người thao tác.
+Vi phạm nghiêm trọng nguyên tắc bảo mật thông tin khách hàng: Danh sách số điện thoại khách hàng của Startup là tài sản tối quan trọng. Việc mở quyền công khai không kiểm soát dẫn đến hậu quả tất yếu là rò rỉ dữ liệu nguy hiểm
+Phần 2: Sửa lỗi và thiết lập lại cấu trúc phân quyền chuẩn cho An
+Mức quyền cho cộng tác viên:
+Chỉ cấp quyền Commenter (Người bình luận) hoặc Editor (Người chỉnh sửa) nhưng phải được giới hạn chặt chẽ bằng tài khoản định danh cụ thể, tuyệt đối không dùng quyền mở rộng cho người lạ. Nếu cộng tác viên chỉ cần chỉnh sửa nội dung trực tiếp trên văn bản một cách có kiểm soát, hãy dùng quyền Editor giới hạn theo email.
+Chế độ chia sẻ an toàn 100%:
+Chuyển chế độ chia sẻ từ công khai sang chế độ Hạn chế (Restricted). Chỉ những tài khoản email được An chủ động cấp phép mới có thể truy cập vào tệp tài liệu.
+Tính năng cần bật để ngăn cộng tác viên tự ý mời thêm người lạ:
+Trong phần cài đặt chia sẻ nâng cao, tích chọn tùy chọn: "Tắt tùy chọn cho phép người chỉnh sửa thay đổi quyền và chia sẻ tài liệu" .Điều này giúp ngăn chặn việc cộng tác viên tự ý chia sẻ hoặc mời thêm người ngoài vào tệp.
